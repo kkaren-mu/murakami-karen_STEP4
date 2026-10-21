@@ -1,0 +1,59 @@
+/* 全体の設定 */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 5) 画面いっぱいに表示させない（幅を指定して中央寄せ） */
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+/* a, b) h1タグと入力フォームの色分け */
+h1 {
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* c) 文字は左寄せ */
+form, .confirm-content {
+    padding: 20px;
+    text-align: left;
+}
+
+/* f) 入力フォームの間隔は統一（20pxで統一） */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* d) 送信ボタンは「青」にして、左に寄せる */
+.btn-group {
+    text-align: left;
+}
+
+.submit-btn {
+    background-color: blue;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
